@@ -1,0 +1,115 @@
+@import "variables";
+
+.kb-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  stroke-width: 0;
+  stroke: #ccc;
+  fill: rgba(0, 0, 0, 0.34);
+}
+
+
+
+.kb-form-title {
+  margin: 0;
+  color: $primary-color;
+  font-size: 20px;
+}
+
+.kb-label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: $primary-color;
+
+  &.kb-label--required:after {
+    content: '*';
+    color: #f44336;
+    font-weight: 600;
+  }
+}
+
+
+.kb-card-title {
+  font-size: 18px;
+  color: $primary-color;
+}
+
+.kb-grid-container {
+  display: grid;
+  grid-gap: 16px;
+  grid-template-columns: auto 400px;
+}
+
+.kb-grid {
+  display: grid;
+  grid-gap: 24px;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 24px;
+}
+
+
+
+.kb-form-input {
+  width: 100%;
+  padding: 0px;
+
+  &:not(textarea) {
+    line-height: 32px;
+  }
+
+  .mat-form-field-wrapper {
+    padding: 0;
+  }
+
+  .mat-form-field-infix {
+    padding: 0;
+    border: 0;
+  }
+
+  .mat-input-element {
+    padding: 0 8px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    font-size: 14px;
+
+  }
+}
+
+.kb-table{
+  border-collapse: collapse;
+  font-size: 13px;
+  width: 100%;
+
+  th, td{
+    border-top:1px solid #f3f1f4;
+    border-bottom:1px solid #f3f1f4;
+    padding: 8px 16px;
+
+  }
+
+  .kb-table__link{
+    color: #528ab7;
+    text-decoration: none;
+
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+
+  .kb-table__button{
+    font-weight: 300;
+
+    &.kb-table__button--link{
+      margin-left: 16px;
+      color:#528ab7;
+    }
+  }
+
+  .kb-table__icon{
+    width: 18px;
+    height: 18px;
+    fill: $primary-color;
+
+  }
+}

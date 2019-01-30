@@ -1,0 +1,25 @@
+@import '../../node_modules/@angular/material/theming';
+@include mat-core();
+
+$candy-app-primary: mat-palette($mat-indigo);
+$candy-app-accent:  mat-palette($mat-pink, A200, A100, A400);
+$candy-app-theme:   mat-light-theme($candy-app-primary, $candy-app-accent);
+
+@include mat-core-theme($candy-app-theme);
+@include mat-button-theme($candy-app-theme);
+@include mat-checkbox-theme($candy-app-theme);
+
+*{
+  box-sizing: border-box;}
+
+body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: #e3f0ff;
+}
+.mat-card:not([class*=mat-elevation-z]) {
+  box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12);
+}
+
+.mat-form-field-wrapper{padding: 0 !important}

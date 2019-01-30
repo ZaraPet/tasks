@@ -1,0 +1,269 @@
+<mat-card class="kb-form">
+	<div class="kb-form-header">
+		<div class="kb-form-header__group">
+			<div class="kb-form-header__icon">
+				<svg class="kb-icon kb-form-header__icon-user">
+					<use xlink:href="assets/icons/core.svg#users"></use>
+				</svg>
+			</div>
+			<div>
+				<div class="kb-breadcrumb">
+					<a class="kb-breadcrumb__item" href="#"> Data </a>
+					<svg class="kb-icon kb-breadcrumb__arrow">
+						<use xlink:href="assets/icons/core.svg#keyboard_arrow_right"></use>
+					</svg>
+					<a class="kb-breadcrumb__item" href="#"> Entity </a>
+				</div>
+				<h1 class="kb-form-title"> Project </h1>
+			</div>
+		</div>
+		<div class="kb-form-header__button-group">
+
+			<button mat-button class="kb-form-header__button">Import Data</button>
+			<button mat-button class="kb-form-header__button">Export Data</button>
+		</div>
+
+	</div>
+</mat-card>
+
+<mat-card class="kb-form">
+	<h2 class="kb-section-title">Details</h2>
+	<div class="kb-grid-container">
+		<div class="kb-group">
+			<div class="kb-grid">
+				<div class="kb-group">
+					<label class="kb-label kb-label--required">Display Name</label>
+					<form>
+						<mat-form-field class="kb-form-input" floatLabel="never" color="accent">
+							<input matInput placeholder="Display name" value="Project">
+						</mat-form-field>
+					</form>
+				</div>
+				<div class="kb-group">
+					<label class="kb-label kb-label--required">Plural Name</label>
+					<mat-form-field class="kb-form-input" floatLabel="never" color="accent">
+						<input matInput placeholder="Plurel Name" value="Projects">
+					</mat-form-field>
+				</div>
+				<div class="kb-group">
+					<label class="kb-label kb-label--required">System Label</label>
+					<mat-form-field class="kb-form-input" floatLabel="never" color="accent">
+						<input matInput placeholder="System label" value="12345_projects">
+					</mat-form-field>
+				</div>
+			</div>
+			<div class="kb-grid">
+				<div class="kb-group">
+					<label class="kb-label">Description</label>
+					<mat-form-field class="kb-form-input" floatLabel="never" color="accent">
+						<textarea matInput></textarea>
+					</mat-form-field>
+				</div>
+
+				<div class="kb-group">
+					<label class="kb-label ">Cashing</label>
+					<span class="kb-field-value">Enabled</span>
+				</div>
+				<div class="kb-group">
+					<label class="kb-label ">Entity Icon</label>
+					<div class="kb-icon-list">
+						<button mat-icon-button class="kb-icon-list__item kb-icon-list__item--disable" disabled>
+							<svg class="kb-icon kb-icon-list__icon kb-icon-list__icon--disable ">
+								<use xlink:href="assets/icons/core.svg#date"></use>
+							</svg>
+						</button>
+						<button mat-icon-button class="kb-icon-list__item">
+							<svg class="kb-icon kb-icon-list__icon">
+								<use xlink:href="assets/icons/core.svg#playlist_add_check"></use>
+							</svg>
+						</button>
+						<button mat-icon-button class="kb-icon-list__item">
+							<svg class="kb-icon kb-icon-list__icon">
+								<use xlink:href="assets/icons/core.svg#settings"></use>
+							</svg>
+						</button>
+						<button mat-icon-button class="kb-icon-list__item">
+							<svg class="kb-icon kb-icon-list__icon">
+								<use xlink:href="assets/icons/core.svg#work"></use>
+							</svg>
+						</button>
+						<button mat-icon-button class="kb-icon-list__item">
+							<svg class="kb-icon kb-icon-list__icon">
+								<use xlink:href="assets/icons/core.svg#photo_library"></use>
+							</svg>
+						</button>
+						<button mat-icon-button class="kb-icon-list__item">
+							<svg class="kb-icon kb-icon-list__icon">
+								<use xlink:href="assets/icons/core.svg#search"></use>
+							</svg>
+						</button>
+						<button mat-icon-button class="kb-icon-list__item">
+							<svg class="kb-icon kb-icon-list__icon">
+								<use xlink:href="assets/icons/core.svg#line-chart"></use>
+							</svg>
+						</button>
+						<button mat-icon-button class="kb-icon-list__item">
+							<svg class="kb-icon kb-icon-list__icon">
+								<use xlink:href="assets/icons/core.svg#area-chart"></use>
+							</svg>
+						</button>
+						<button mat-icon-button class="kb-icon-list__item">
+							<svg class="kb-icon kb-icon-list__icon">
+								<use xlink:href="assets/icons/core.svg#column-chart"></use>
+							</svg>
+						</button>
+						<button mat-icon-button class="kb-icon-list__item">
+							<svg class="kb-icon kb-icon-list__icon">
+								<use xlink:href="assets/icons/core.svg#pie-chart"></use>
+							</svg>
+						</button>
+						<button mat-icon-button class="kb-icon-list__item">
+							<svg class="kb-icon kb-icon-list__icon">
+								<use xlink:href="assets/icons/core.svg#announcement"></use>
+							</svg>
+						</button>
+						<button mat-icon-button class="kb-icon-list__item">
+							<svg class="kb-icon kb-icon-list__icon">
+								<use xlink:href="assets/icons/core.svg#lock_outline"></use>
+							</svg>
+						</button>
+						<button mat-icon-button class="kb-icon-list__item">
+							<svg class="kb-icon kb-icon-list__icon">
+								<use xlink:href="assets/icons/core.svg#cloud_download"></use>
+							</svg>
+						</button>
+						<button mat-icon-button class="kb-icon-list__item">
+							<svg class="kb-icon kb-icon-list__icon">
+								<use xlink:href="assets/icons/core.svg#do_not_disturb_alt"></use>
+							</svg>
+						</button>
+						<button mat-icon-button class="kb-icon-list__item">
+							<svg class="kb-icon kb-icon-list__icon">
+								<use xlink:href="assets/icons/core.svg#table"></use>
+							</svg>
+						</button>
+
+
+					</div>
+				</div>
+			</div>
+			<div class="kb-grid">
+				<div class="kb-group">
+					<label class="kb-label ">Records Icon</label>
+					<div class="kb-icon-list">
+						<button mat-icon-button class="kb-icon-list__item ">
+							<div class="kb-icon-list__circle kb-icon-list__circle--gray kb-icon-list__circle--selected"></div>
+						</button>
+						<button mat-icon-button class="kb-icon-list__item">
+							<div class="kb-icon-list__circle kb-icon-list__circle--pink"></div>
+						</button>
+						<button mat-icon-button class="kb-icon-list__item">
+							<div class="kb-icon-list__circle kb-icon-list__circle--cyan"></div>
+						</button>
+						<button mat-icon-button class="kb-icon-list__item">
+							<div class="kb-icon-list__circle kb-icon-list__circle--green"></div>
+						</button>
+						<button mat-icon-button class="kb-icon-list__item">
+							<div class="kb-icon-list__circle kb-icon-list__circle--yellow"></div>
+						</button>
+						<button mat-icon-button class="kb-icon-list__item">
+							<div class="kb-icon-list__circle kb-icon-list__circle--navy"></div>
+						</button>
+						<button mat-icon-button class="kb-icon-list__item">
+							<div class="kb-icon-list__circle kb-icon-list__circle--orange"></div>
+						</button>
+						<button mat-icon-button class="kb-icon-list__item">
+							<div class="kb-icon-list__circle kb-icon-list__circle--red"></div>
+						</button>
+						<button mat-icon-button class="kb-icon-list__item">
+							<div class="kb-icon-list__circle kb-icon-list__circle--blue"></div>
+						</button>
+						<button mat-icon-button class="kb-icon-list__item">
+							<div class="kb-icon-list__circle kb-icon-list__circle--brown"></div>
+						</button>
+					</div>
+				</div>
+			</div>
+
+			<h2 class="kb-section-title">Properties</h2>
+			<table class="kb-table">
+				<thead>
+				<tr>
+					<td>Name</td>
+					<td>Type</td>
+					<td>Validation</td>
+					<td>Last Updated</td>
+				</tr>
+				</thead>
+				<tbody>
+				<tr>
+					<td><a href="" class="kb-table__link"> Name </a></td>
+					<td> Text</td>
+					<td>
+						<button mat-button class="kb-table__button">
+							<svg class="kb-icon kb-table__icon">
+								<use xlink:href="assets/icons/core.svg#remove_circle_outline"></use>
+							</svg>
+							Field validation
+						</button>
+					</td>
+					<td>09.12.2004</td>
+				</tr>
+
+				<tr>
+					<td><a href="" class="kb-table__link"> User Created </a></td>
+					<td> Lookup</td>
+					<td>
+						<button mat-button class="kb-table__button kb-table__button--link">
+							Add validation
+						</button>
+					</td>
+					<td>09.12.2004</td>
+				</tr>
+				</tbody>
+			</table>
+
+
+		</div>
+		<div class="kb-stepper">
+			<button mat-button class="kb-stepper__item kb-stepper__item--active">
+				<div class="kb-stepper__group">
+					<div class="kb-stepper__point kb-stepper__point--active "></div>
+					<span>Details</span>
+				</div>
+			</button>
+
+			<button mat-button class="kb-stepper__item ">
+				<div class="kb-stepper__group">
+					<div class="kb-stepper__point "></div>
+					<span>Properties</span>
+				</div>
+			</button>
+			<button mat-button class="kb-stepper__item ">
+				<div class="kb-stepper__group">
+					<div class="kb-stepper__point "></div>
+					<span>Relations</span>
+				</div>
+			</button>
+			<button mat-button class="kb-stepper__item ">
+				<div class="kb-stepper__group">
+					<div class="kb-stepper__point "></div>
+					<span>Forms</span>
+				</div>
+			</button>
+			<button mat-button class="kb-stepper__item ">
+				<div class="kb-stepper__group">
+					<div class="kb-stepper__point "></div>
+					<span>Workflows</span>
+				</div>
+			</button>
+			<button mat-button class="kb-stepper__item ">
+				<div class="kb-stepper__group">
+					<div class="kb-stepper__point "></div>
+					<span>DATA</span>
+				</div>
+			</button>
+		</div>
+	</div>
+
+</mat-card>
